@@ -1,0 +1,41 @@
+
+======================================================================
+Bonferroni-corrected alpha = 0.05 / 9 = 0.00556
+Significance marker (*) indicates p < 0.00556
+======================================================================
+
+--- Paired t-tests (2-block vs 4-block) ---
+  Accuracy Riddle:                         t =   0.921,  p = 0.3714,  d = 0.230
+* Time Riddle:                             t =  -3.919,  p = 0.0014,  d = -0.980
+* Click Riddle:                            t =  -6.582,  p = 0.0000,  d = -1.645
+  Accuracy Logic:                          t =  -0.202,  p = 0.8425,  d = -0.051
+* Time Logic:                              t =  -8.012,  p = 0.0000,  d = -2.003
+* Click Logic:                             t =  -3.614,  p = 0.0026,  d = -0.904
+  Accuracy General:                        t =   0.138,  p = 0.8918,  d = 0.035
+* Time General:                            t =  -4.284,  p = 0.0007,  d = -1.071
+* Click General:                           t =  -4.869,  p = 0.0002,  d = -1.217
+
+ANOVA — Accuracy by question type (2-question block):
+            df    sum_sq   mean_sq         F    PR(>F)
+C(Type)    2.0  0.166667  0.083333  0.714286  0.495008
+Residual  45.0  5.250000  0.116667       NaN       NaN
+
+ANOVA — Accuracy by question type (4-question block):
+            df    sum_sq   mean_sq         F    PR(>F)
+C(Type)    2.0  0.330729  0.165365  1.734973  0.187996
+Residual  45.0  4.289062  0.095312       NaN       NaN
+
+ANOVA — Accuracy (block size effect):
+              df     sum_sq   mean_sq         F    PR(>F)
+Block_Size   1.0   0.023438  0.023438  0.219512  0.640497
+Residual    94.0  10.036458  0.106771       NaN       NaN
+
+ANOVA — Time (block size effect):
+              df         sum_sq        mean_sq          F        PR(>F)
+Block_Size   1.0  212308.094200  212308.094200  34.263467  7.004573e-08
+Residual    94.0  582455.965056    6196.340054        NaN           NaN
+
+ANOVA — Clicks (block size effect):
+              df       sum_sq      mean_sq          F    PR(>F)
+Block_Size   1.0  1496.260417  1496.260417  24.435196  0.000003
+Residual    94.0  5755.979167    61.233821        NaN       NaN
