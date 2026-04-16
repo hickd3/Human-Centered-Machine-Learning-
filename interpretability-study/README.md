@@ -13,6 +13,7 @@ This project investigates how interpretability in decision tree models changes a
 
 Participants completed both a **2-question block** (shorter path) and a **4-question block** (longer path) for each type in a within-subjects design (N = 16).
 
+Full write-ups can be provided upon request. The survey is currently unavailable due to the author no longer having access permissions to the hosting platform.
 ---
 
 ## Research Questions
